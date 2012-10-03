@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'YTFExtensions - extensions and categories.'
   s.homepage = 'https://github.com/yetithefoot/YTFExtensions'
   s.authors  = {'YetiTheFoot' => 'reg.yeti@gmail.com'}
-  s.source   = { :git => 'https://github.com/yetithefoot/YTFExtensions.git', :tag => '0.1'}
+  s.source   = { :git => 'https://github.com/yetithefoot/YTFExtensions.git', :tag => '0.2'}
   s.source_files = 'YTFExtensions/*'
   s.requires_arc = false
 
