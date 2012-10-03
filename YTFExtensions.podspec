@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.name     = 'YTFExtensions'
-  s.version  = '0.1'
+  s.version  = '0.2'
   s.license  = 'MIT'
   s.summary  = 'YTFExtensions - extensions and categories.'
   s.homepage = 'https://github.com/yetithefoot/YTFExtensions'
