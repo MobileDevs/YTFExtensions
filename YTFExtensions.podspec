@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name     = 'YTFExtensions'
   s.version  = '0.1'
   s.license  = 'MIT'
-  s.summary  = 'YTFExtensions - extensions and categories'
+  s.summary  = 'YTFExtensions - extensions and categories.'
   s.homepage = 'https://github.com/yetithefoot/YTFExtensions'
   s.authors  = {'YetiTheFoot' => 'reg.yeti@gmail.com'}
   s.source   = { :git => 'https://github.com/yetithefoot/YTFExtensions.git', :tag => '0.1'}
