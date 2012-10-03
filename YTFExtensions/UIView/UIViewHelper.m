@@ -27,6 +27,7 @@
 #if TARGET_OS_IPHONE
 
 #import "UIViewHelper.h"
+#import <QuartzCore/QuartzCore.h>
 
 CGFloat DIW(CGFloat width) {
 	return DIWW(width, 320.0f, UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation) ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width);
@@ -60,12 +61,7 @@ CGFloat DIWW(CGFloat width, CGFloat baseWidth, CGFloat actualWidth) {
 	return view;
 }
 
-- (void)setDebug:(BOOL)val{
-	
-	self.layer.borderColor = [UIColor colorWithRed:arc4random()%1.0f green:arc4random()%1.0f blue:arc4random()%1.0f alpha:1.0f];
-	self.layer.borderWidth = 1.0f;
-	
-}
+
 
 @end
 

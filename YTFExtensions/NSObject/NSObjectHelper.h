@@ -28,15 +28,6 @@
 
 @interface NSObject (Helper)
 
-// Reroutes all calls to the first method, to the second method in the current class
-+ (void)swizzleMethod:(SEL)originalMethod withMethod:(SEL)newMethod;
-
-// Adds the method to this class, from the indicated class
-+ (void)appendMethod:(SEL)newMethod fromClass:(Class)aClass;
-
-// Replaces calls to this classes method, with the same method from another class
-+ (void)replaceMethod:(SEL)aMethod fromClass:(Class)aClass;
-
 // Returns a NSArray containing just this object
 - (NSArray*)arrayValue;
 @property(nonatomic,readonly,getter=arrayValue) NSArray* NSArray;
