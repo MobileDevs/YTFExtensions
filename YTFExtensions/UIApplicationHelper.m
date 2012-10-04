@@ -34,6 +34,14 @@
 	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
+- (NSString *)applicationVersion{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
+- (NSString *)bundleVersion{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+}
+
 - (void)setApplicationStyle:(UIStatusBarStyle)style animated:(BOOL)animated {
 	[self setApplicationStyle:style animated:animated defaultBackgroundColor:[UIColor whiteColor]];
 }

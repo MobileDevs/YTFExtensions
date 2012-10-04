@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C2DF8161DC8A900E4D1E4 /* CAAnimationEGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCB161DC8A900E4D1E4 /* CAAnimationEGOHelper.m */; };
+		D00C2DF9161DC8A900E4D1E4 /* NSArrayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCD161DC8A900E4D1E4 /* NSArrayHelper.m */; };
+		D00C2DFA161DC8A900E4D1E4 /* NSDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCF161DC8A900E4D1E4 /* NSDataHelper.m */; };
+		D00C2DFB161DC8A900E4D1E4 /* NSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD1161DC8A900E4D1E4 /* NSDateHelper.m */; };
+		D00C2DFC161DC8A900E4D1E4 /* NSDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD3161DC8A900E4D1E4 /* NSDictionaryHelper.m */; };
+		D00C2DFD161DC8A900E4D1E4 /* NSManagedObjectContextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD5161DC8A900E4D1E4 /* NSManagedObjectContextHelper.m */; };
+		D00C2DFE161DC8A900E4D1E4 /* NSNullHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD7161DC8A900E4D1E4 /* NSNullHelper.m */; };
+		D00C2DFF161DC8A900E4D1E4 /* NSObjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD9161DC8A900E4D1E4 /* NSObjectHelper.m */; };
+		D00C2E00161DC8A900E4D1E4 /* NSSetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDB161DC8A900E4D1E4 /* NSSetHelper.m */; };
+		D00C2E01161DC8A900E4D1E4 /* NSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDD161DC8A900E4D1E4 /* NSStringHelper.m */; };
+		D00C2E02161DC8A900E4D1E4 /* NSURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDF161DC8A900E4D1E4 /* NSURLHelper.m */; };
+		D00C2E03161DC8A900E4D1E4 /* UIAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE1161DC8A900E4D1E4 /* UIAlertViewHelper.m */; };
+		D00C2E04161DC8A900E4D1E4 /* UIApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE3161DC8A900E4D1E4 /* UIApplicationHelper.m */; };
+		D00C2E05161DC8A900E4D1E4 /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE5161DC8A900E4D1E4 /* UIColorHelper.m */; };
+		D00C2E06161DC8A900E4D1E4 /* UIDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE7161DC8A900E4D1E4 /* UIDeviceHelper.m */; };
+		D00C2E07161DC8A900E4D1E4 /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE9161DC8A900E4D1E4 /* UIImageHelper.m */; };
+		D00C2E08161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEB161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m */; };
+		D00C2E09161DC8A900E4D1E4 /* UITableViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DED161DC8A900E4D1E4 /* UITableViewControllerHelper.m */; };
+		D00C2E0A161DC8A900E4D1E4 /* UITableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEF161DC8A900E4D1E4 /* UITableViewHelper.m */; };
+		D00C2E0B161DC8A900E4D1E4 /* UITableViewUpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF1161DC8A900E4D1E4 /* UITableViewUpdatingView.m */; };
+		D00C2E0C161DC8A900E4D1E4 /* UIToolbarEGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF3161DC8A900E4D1E4 /* UIToolbarEGOHelper.m */; };
+		D00C2E0D161DC8A900E4D1E4 /* UIViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF5161DC8A900E4D1E4 /* UIViewControllerHelper.m */; };
+		D00C2E0E161DC8A900E4D1E4 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF7161DC8A900E4D1E4 /* UIViewHelper.m */; };
 		D05E258F161C61950063EBA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05E258D161C61950063EBA3 /* InfoPlist.strings */; };
 		D05E2591161C61950063EBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E2590161C61950063EBA3 /* main.m */; };
 		D05E2595161C61950063EBA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E2594161C61950063EBA3 /* AppDelegate.m */; };
@@ -15,31 +38,6 @@
 		D05E259B161C61950063EBA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E259A161C61950063EBA3 /* Default-568h@2x.png */; };
 		D05E259E161C61950063EBA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E259D161C61950063EBA3 /* ViewController.m */; };
 		D05E25A1161C61950063EBA3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05E259F161C61950063EBA3 /* ViewController.xib */; };
-		D05E2701161C776D0063EBA3 /* CAAnimationEGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26AB161C776C0063EBA3 /* CAAnimationEGOHelper.m */; };
-		D05E2702161C776D0063EBA3 /* EnvironmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26AE161C776C0063EBA3 /* EnvironmentHelper.m */; };
-		D05E2703161C776D0063EBA3 /* ExceptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26B1161C776C0063EBA3 /* ExceptionHelper.m */; };
-		D05E2705161C776D0063EBA3 /* NSArrayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26B7161C776D0063EBA3 /* NSArrayHelper.m */; };
-		D05E2706161C776D0063EBA3 /* NSDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26BA161C776D0063EBA3 /* NSDataHelper.m */; };
-		D05E2707161C776D0063EBA3 /* NSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26BD161C776D0063EBA3 /* NSDateHelper.m */; };
-		D05E2708161C776D0063EBA3 /* NSDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26C0161C776D0063EBA3 /* NSDictionaryHelper.m */; };
-		D05E270A161C776D0063EBA3 /* NSManagedObjectContextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26C6161C776D0063EBA3 /* NSManagedObjectContextHelper.m */; };
-		D05E270B161C776D0063EBA3 /* NSNullHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26C9161C776D0063EBA3 /* NSNullHelper.m */; };
-		D05E270C161C776D0063EBA3 /* NSObjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26CC161C776D0063EBA3 /* NSObjectHelper.m */; };
-		D05E270D161C776D0063EBA3 /* NSSetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26CF161C776D0063EBA3 /* NSSetHelper.m */; };
-		D05E270E161C776D0063EBA3 /* NSStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26D2161C776D0063EBA3 /* NSStringHelper.m */; };
-		D05E2710161C776D0063EBA3 /* NSURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26D8161C776D0063EBA3 /* NSURLHelper.m */; };
-		D05E2713161C776D0063EBA3 /* UIAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26E1161C776D0063EBA3 /* UIAlertViewHelper.m */; };
-		D05E2714161C776D0063EBA3 /* UIApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26E4161C776D0063EBA3 /* UIApplicationHelper.m */; };
-		D05E2715161C776D0063EBA3 /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26E7161C776D0063EBA3 /* UIColorHelper.m */; };
-		D05E2716161C776D0063EBA3 /* UIDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26EA161C776D0063EBA3 /* UIDeviceHelper.m */; };
-		D05E2717161C776D0063EBA3 /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26ED161C776D0063EBA3 /* UIImageHelper.m */; };
-		D05E2718161C776D0063EBA3 /* UITableViewContentUnavailableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26F0161C776D0063EBA3 /* UITableViewContentUnavailableView.m */; };
-		D05E2719161C776D0063EBA3 /* UITableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26F2161C776D0063EBA3 /* UITableViewHelper.m */; };
-		D05E271A161C776D0063EBA3 /* UITableViewUpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26F4161C776D0063EBA3 /* UITableViewUpdatingView.m */; };
-		D05E271B161C776D0063EBA3 /* UITableViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26F7161C776D0063EBA3 /* UITableViewControllerHelper.m */; };
-		D05E271C161C776D0063EBA3 /* UIToolbarEGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26FA161C776D0063EBA3 /* UIToolbarEGOHelper.m */; };
-		D05E271D161C776D0063EBA3 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E26FD161C776D0063EBA3 /* UIViewHelper.m */; };
-		D05E271E161C776D0063EBA3 /* UIViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E2700161C776D0063EBA3 /* UIViewControllerHelper.m */; };
 		D05E2720161C78820063EBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E271F161C78820063EBA3 /* Foundation.framework */; };
 		D05E2722161C78880063EBA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2721161C78880063EBA3 /* UIKit.framework */; };
 		D05E2726161C78930063EBA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2725161C78930063EBA3 /* QuartzCore.framework */; };
@@ -48,6 +46,52 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00C2DCA161DC8A900E4D1E4 /* CAAnimationEGOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationEGOHelper.h; sourceTree = "<group>"; };
+		D00C2DCB161DC8A900E4D1E4 /* CAAnimationEGOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationEGOHelper.m; sourceTree = "<group>"; };
+		D00C2DCC161DC8A900E4D1E4 /* NSArrayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayHelper.h; sourceTree = "<group>"; };
+		D00C2DCD161DC8A900E4D1E4 /* NSArrayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayHelper.m; sourceTree = "<group>"; };
+		D00C2DCE161DC8A900E4D1E4 /* NSDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataHelper.h; sourceTree = "<group>"; };
+		D00C2DCF161DC8A900E4D1E4 /* NSDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataHelper.m; sourceTree = "<group>"; };
+		D00C2DD0161DC8A900E4D1E4 /* NSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateHelper.h; sourceTree = "<group>"; };
+		D00C2DD1161DC8A900E4D1E4 /* NSDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateHelper.m; sourceTree = "<group>"; };
+		D00C2DD2161DC8A900E4D1E4 /* NSDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryHelper.h; sourceTree = "<group>"; };
+		D00C2DD3161DC8A900E4D1E4 /* NSDictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryHelper.m; sourceTree = "<group>"; };
+		D00C2DD4161DC8A900E4D1E4 /* NSManagedObjectContextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectContextHelper.h; sourceTree = "<group>"; };
+		D00C2DD5161DC8A900E4D1E4 /* NSManagedObjectContextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectContextHelper.m; sourceTree = "<group>"; };
+		D00C2DD6161DC8A900E4D1E4 /* NSNullHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNullHelper.h; sourceTree = "<group>"; };
+		D00C2DD7161DC8A900E4D1E4 /* NSNullHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNullHelper.m; sourceTree = "<group>"; };
+		D00C2DD8161DC8A900E4D1E4 /* NSObjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectHelper.h; sourceTree = "<group>"; };
+		D00C2DD9161DC8A900E4D1E4 /* NSObjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectHelper.m; sourceTree = "<group>"; };
+		D00C2DDA161DC8A900E4D1E4 /* NSSetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSetHelper.h; sourceTree = "<group>"; };
+		D00C2DDB161DC8A900E4D1E4 /* NSSetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetHelper.m; sourceTree = "<group>"; };
+		D00C2DDC161DC8A900E4D1E4 /* NSStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringHelper.h; sourceTree = "<group>"; };
+		D00C2DDD161DC8A900E4D1E4 /* NSStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringHelper.m; sourceTree = "<group>"; };
+		D00C2DDE161DC8A900E4D1E4 /* NSURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLHelper.h; sourceTree = "<group>"; };
+		D00C2DDF161DC8A900E4D1E4 /* NSURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLHelper.m; sourceTree = "<group>"; };
+		D00C2DE0161DC8A900E4D1E4 /* UIAlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewHelper.h; sourceTree = "<group>"; };
+		D00C2DE1161DC8A900E4D1E4 /* UIAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewHelper.m; sourceTree = "<group>"; };
+		D00C2DE2161DC8A900E4D1E4 /* UIApplicationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplicationHelper.h; sourceTree = "<group>"; };
+		D00C2DE3161DC8A900E4D1E4 /* UIApplicationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplicationHelper.m; sourceTree = "<group>"; };
+		D00C2DE4161DC8A900E4D1E4 /* UIColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorHelper.h; sourceTree = "<group>"; };
+		D00C2DE5161DC8A900E4D1E4 /* UIColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHelper.m; sourceTree = "<group>"; };
+		D00C2DE6161DC8A900E4D1E4 /* UIDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHelper.h; sourceTree = "<group>"; };
+		D00C2DE7161DC8A900E4D1E4 /* UIDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHelper.m; sourceTree = "<group>"; };
+		D00C2DE8161DC8A900E4D1E4 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageHelper.h; sourceTree = "<group>"; };
+		D00C2DE9161DC8A900E4D1E4 /* UIImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageHelper.m; sourceTree = "<group>"; };
+		D00C2DEA161DC8A900E4D1E4 /* UITableViewContentUnavailableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewContentUnavailableView.h; sourceTree = "<group>"; };
+		D00C2DEB161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewContentUnavailableView.m; sourceTree = "<group>"; };
+		D00C2DEC161DC8A900E4D1E4 /* UITableViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerHelper.h; sourceTree = "<group>"; };
+		D00C2DED161DC8A900E4D1E4 /* UITableViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerHelper.m; sourceTree = "<group>"; };
+		D00C2DEE161DC8A900E4D1E4 /* UITableViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewHelper.h; sourceTree = "<group>"; };
+		D00C2DEF161DC8A900E4D1E4 /* UITableViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewHelper.m; sourceTree = "<group>"; };
+		D00C2DF0161DC8A900E4D1E4 /* UITableViewUpdatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewUpdatingView.h; sourceTree = "<group>"; };
+		D00C2DF1161DC8A900E4D1E4 /* UITableViewUpdatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewUpdatingView.m; sourceTree = "<group>"; };
+		D00C2DF2161DC8A900E4D1E4 /* UIToolbarEGOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToolbarEGOHelper.h; sourceTree = "<group>"; };
+		D00C2DF3161DC8A900E4D1E4 /* UIToolbarEGOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToolbarEGOHelper.m; sourceTree = "<group>"; };
+		D00C2DF4161DC8A900E4D1E4 /* UIViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerHelper.h; sourceTree = "<group>"; };
+		D00C2DF5161DC8A900E4D1E4 /* UIViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerHelper.m; sourceTree = "<group>"; };
+		D00C2DF6161DC8A900E4D1E4 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
+		D00C2DF7161DC8A900E4D1E4 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
 		D05E2577161C614D0063EBA3 /* YTFExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTFExtensions.h; sourceTree = "<group>"; };
 		D05E2583161C61950063EBA3 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05E258C161C61950063EBA3 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
@@ -62,56 +106,6 @@
 		D05E259C161C61950063EBA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D05E259D161C61950063EBA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D05E25A0161C61950063EBA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		D05E26AA161C776C0063EBA3 /* CAAnimationEGOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationEGOHelper.h; sourceTree = "<group>"; };
-		D05E26AB161C776C0063EBA3 /* CAAnimationEGOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationEGOHelper.m; sourceTree = "<group>"; };
-		D05E26AD161C776C0063EBA3 /* EnvironmentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentHelper.h; sourceTree = "<group>"; };
-		D05E26AE161C776C0063EBA3 /* EnvironmentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentHelper.m; sourceTree = "<group>"; };
-		D05E26B0161C776C0063EBA3 /* ExceptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHelper.h; sourceTree = "<group>"; };
-		D05E26B1161C776C0063EBA3 /* ExceptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHelper.m; sourceTree = "<group>"; };
-		D05E26B6161C776D0063EBA3 /* NSArrayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayHelper.h; sourceTree = "<group>"; };
-		D05E26B7161C776D0063EBA3 /* NSArrayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayHelper.m; sourceTree = "<group>"; };
-		D05E26B9161C776D0063EBA3 /* NSDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataHelper.h; sourceTree = "<group>"; };
-		D05E26BA161C776D0063EBA3 /* NSDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataHelper.m; sourceTree = "<group>"; };
-		D05E26BC161C776D0063EBA3 /* NSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateHelper.h; sourceTree = "<group>"; };
-		D05E26BD161C776D0063EBA3 /* NSDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateHelper.m; sourceTree = "<group>"; };
-		D05E26BF161C776D0063EBA3 /* NSDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryHelper.h; sourceTree = "<group>"; };
-		D05E26C0161C776D0063EBA3 /* NSDictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryHelper.m; sourceTree = "<group>"; };
-		D05E26C5161C776D0063EBA3 /* NSManagedObjectContextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectContextHelper.h; sourceTree = "<group>"; };
-		D05E26C6161C776D0063EBA3 /* NSManagedObjectContextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectContextHelper.m; sourceTree = "<group>"; };
-		D05E26C8161C776D0063EBA3 /* NSNullHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNullHelper.h; sourceTree = "<group>"; };
-		D05E26C9161C776D0063EBA3 /* NSNullHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNullHelper.m; sourceTree = "<group>"; };
-		D05E26CB161C776D0063EBA3 /* NSObjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectHelper.h; sourceTree = "<group>"; };
-		D05E26CC161C776D0063EBA3 /* NSObjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectHelper.m; sourceTree = "<group>"; };
-		D05E26CE161C776D0063EBA3 /* NSSetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSetHelper.h; sourceTree = "<group>"; };
-		D05E26CF161C776D0063EBA3 /* NSSetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetHelper.m; sourceTree = "<group>"; };
-		D05E26D1161C776D0063EBA3 /* NSStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringHelper.h; sourceTree = "<group>"; };
-		D05E26D2161C776D0063EBA3 /* NSStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringHelper.m; sourceTree = "<group>"; };
-		D05E26D7161C776D0063EBA3 /* NSURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLHelper.h; sourceTree = "<group>"; };
-		D05E26D8161C776D0063EBA3 /* NSURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLHelper.m; sourceTree = "<group>"; };
-		D05E26E0161C776D0063EBA3 /* UIAlertViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewHelper.h; sourceTree = "<group>"; };
-		D05E26E1161C776D0063EBA3 /* UIAlertViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewHelper.m; sourceTree = "<group>"; };
-		D05E26E3161C776D0063EBA3 /* UIApplicationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplicationHelper.h; sourceTree = "<group>"; };
-		D05E26E4161C776D0063EBA3 /* UIApplicationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplicationHelper.m; sourceTree = "<group>"; };
-		D05E26E6161C776D0063EBA3 /* UIColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorHelper.h; sourceTree = "<group>"; };
-		D05E26E7161C776D0063EBA3 /* UIColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHelper.m; sourceTree = "<group>"; };
-		D05E26E9161C776D0063EBA3 /* UIDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHelper.h; sourceTree = "<group>"; };
-		D05E26EA161C776D0063EBA3 /* UIDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHelper.m; sourceTree = "<group>"; };
-		D05E26EC161C776D0063EBA3 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageHelper.h; sourceTree = "<group>"; };
-		D05E26ED161C776D0063EBA3 /* UIImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageHelper.m; sourceTree = "<group>"; };
-		D05E26EF161C776D0063EBA3 /* UITableViewContentUnavailableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewContentUnavailableView.h; sourceTree = "<group>"; };
-		D05E26F0161C776D0063EBA3 /* UITableViewContentUnavailableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewContentUnavailableView.m; sourceTree = "<group>"; };
-		D05E26F1161C776D0063EBA3 /* UITableViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewHelper.h; sourceTree = "<group>"; };
-		D05E26F2161C776D0063EBA3 /* UITableViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewHelper.m; sourceTree = "<group>"; };
-		D05E26F3161C776D0063EBA3 /* UITableViewUpdatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewUpdatingView.h; sourceTree = "<group>"; };
-		D05E26F4161C776D0063EBA3 /* UITableViewUpdatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewUpdatingView.m; sourceTree = "<group>"; };
-		D05E26F6161C776D0063EBA3 /* UITableViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerHelper.h; sourceTree = "<group>"; };
-		D05E26F7161C776D0063EBA3 /* UITableViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerHelper.m; sourceTree = "<group>"; };
-		D05E26F9161C776D0063EBA3 /* UIToolbarEGOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToolbarEGOHelper.h; sourceTree = "<group>"; };
-		D05E26FA161C776D0063EBA3 /* UIToolbarEGOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToolbarEGOHelper.m; sourceTree = "<group>"; };
-		D05E26FC161C776D0063EBA3 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
-		D05E26FD161C776D0063EBA3 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
-		D05E26FF161C776D0063EBA3 /* UIViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerHelper.h; sourceTree = "<group>"; };
-		D05E2700161C776D0063EBA3 /* UIViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerHelper.m; sourceTree = "<group>"; };
 		D05E271F161C78820063EBA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D05E2721161C78880063EBA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D05E2725161C78930063EBA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -168,29 +162,52 @@
 		D05E2574161C614D0063EBA3 /* YTFExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				D05E26A9161C776C0063EBA3 /* CAAnimation */,
-				D05E26AC161C776C0063EBA3 /* Environment */,
-				D05E26AF161C776C0063EBA3 /* ExceptionHelper */,
-				D05E26B5161C776C0063EBA3 /* NSArray */,
-				D05E26B8161C776D0063EBA3 /* NSData */,
-				D05E26BB161C776D0063EBA3 /* NSDate */,
-				D05E26BE161C776D0063EBA3 /* NSDictionary */,
-				D05E26C4161C776D0063EBA3 /* NSManagedObjectContext */,
-				D05E26C7161C776D0063EBA3 /* NSNull */,
-				D05E26CA161C776D0063EBA3 /* NSObject */,
-				D05E26CD161C776D0063EBA3 /* NSSet */,
-				D05E26D0161C776D0063EBA3 /* NSString */,
-				D05E26D6161C776D0063EBA3 /* NSURL */,
-				D05E26DF161C776D0063EBA3 /* UIAlertView */,
-				D05E26E2161C776D0063EBA3 /* UIApplication */,
-				D05E26E5161C776D0063EBA3 /* UIColor */,
-				D05E26E8161C776D0063EBA3 /* UIDevice */,
-				D05E26EB161C776D0063EBA3 /* UIImage */,
-				D05E26EE161C776D0063EBA3 /* UITableView */,
-				D05E26F5161C776D0063EBA3 /* UITableViewController */,
-				D05E26F8161C776D0063EBA3 /* UIToolbar */,
-				D05E26FB161C776D0063EBA3 /* UIView */,
-				D05E26FE161C776D0063EBA3 /* UIViewController */,
+				D00C2DCA161DC8A900E4D1E4 /* CAAnimationEGOHelper.h */,
+				D00C2DCB161DC8A900E4D1E4 /* CAAnimationEGOHelper.m */,
+				D00C2DCC161DC8A900E4D1E4 /* NSArrayHelper.h */,
+				D00C2DCD161DC8A900E4D1E4 /* NSArrayHelper.m */,
+				D00C2DCE161DC8A900E4D1E4 /* NSDataHelper.h */,
+				D00C2DCF161DC8A900E4D1E4 /* NSDataHelper.m */,
+				D00C2DD0161DC8A900E4D1E4 /* NSDateHelper.h */,
+				D00C2DD1161DC8A900E4D1E4 /* NSDateHelper.m */,
+				D00C2DD2161DC8A900E4D1E4 /* NSDictionaryHelper.h */,
+				D00C2DD3161DC8A900E4D1E4 /* NSDictionaryHelper.m */,
+				D00C2DD4161DC8A900E4D1E4 /* NSManagedObjectContextHelper.h */,
+				D00C2DD5161DC8A900E4D1E4 /* NSManagedObjectContextHelper.m */,
+				D00C2DD6161DC8A900E4D1E4 /* NSNullHelper.h */,
+				D00C2DD7161DC8A900E4D1E4 /* NSNullHelper.m */,
+				D00C2DD8161DC8A900E4D1E4 /* NSObjectHelper.h */,
+				D00C2DD9161DC8A900E4D1E4 /* NSObjectHelper.m */,
+				D00C2DDA161DC8A900E4D1E4 /* NSSetHelper.h */,
+				D00C2DDB161DC8A900E4D1E4 /* NSSetHelper.m */,
+				D00C2DDC161DC8A900E4D1E4 /* NSStringHelper.h */,
+				D00C2DDD161DC8A900E4D1E4 /* NSStringHelper.m */,
+				D00C2DDE161DC8A900E4D1E4 /* NSURLHelper.h */,
+				D00C2DDF161DC8A900E4D1E4 /* NSURLHelper.m */,
+				D00C2DE0161DC8A900E4D1E4 /* UIAlertViewHelper.h */,
+				D00C2DE1161DC8A900E4D1E4 /* UIAlertViewHelper.m */,
+				D00C2DE2161DC8A900E4D1E4 /* UIApplicationHelper.h */,
+				D00C2DE3161DC8A900E4D1E4 /* UIApplicationHelper.m */,
+				D00C2DE4161DC8A900E4D1E4 /* UIColorHelper.h */,
+				D00C2DE5161DC8A900E4D1E4 /* UIColorHelper.m */,
+				D00C2DE6161DC8A900E4D1E4 /* UIDeviceHelper.h */,
+				D00C2DE7161DC8A900E4D1E4 /* UIDeviceHelper.m */,
+				D00C2DE8161DC8A900E4D1E4 /* UIImageHelper.h */,
+				D00C2DE9161DC8A900E4D1E4 /* UIImageHelper.m */,
+				D00C2DEA161DC8A900E4D1E4 /* UITableViewContentUnavailableView.h */,
+				D00C2DEB161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m */,
+				D00C2DEC161DC8A900E4D1E4 /* UITableViewControllerHelper.h */,
+				D00C2DED161DC8A900E4D1E4 /* UITableViewControllerHelper.m */,
+				D00C2DEE161DC8A900E4D1E4 /* UITableViewHelper.h */,
+				D00C2DEF161DC8A900E4D1E4 /* UITableViewHelper.m */,
+				D00C2DF0161DC8A900E4D1E4 /* UITableViewUpdatingView.h */,
+				D00C2DF1161DC8A900E4D1E4 /* UITableViewUpdatingView.m */,
+				D00C2DF2161DC8A900E4D1E4 /* UIToolbarEGOHelper.h */,
+				D00C2DF3161DC8A900E4D1E4 /* UIToolbarEGOHelper.m */,
+				D00C2DF4161DC8A900E4D1E4 /* UIViewControllerHelper.h */,
+				D00C2DF5161DC8A900E4D1E4 /* UIViewControllerHelper.m */,
+				D00C2DF6161DC8A900E4D1E4 /* UIViewHelper.h */,
+				D00C2DF7161DC8A900E4D1E4 /* UIViewHelper.m */,
 				D05E2577161C614D0063EBA3 /* YTFExtensions.h */,
 			);
 			path = YTFExtensions;
@@ -221,217 +238,6 @@
 				D05E259A161C61950063EBA3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D05E26A9161C776C0063EBA3 /* CAAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26AA161C776C0063EBA3 /* CAAnimationEGOHelper.h */,
-				D05E26AB161C776C0063EBA3 /* CAAnimationEGOHelper.m */,
-			);
-			path = CAAnimation;
-			sourceTree = "<group>";
-		};
-		D05E26AC161C776C0063EBA3 /* Environment */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26AD161C776C0063EBA3 /* EnvironmentHelper.h */,
-				D05E26AE161C776C0063EBA3 /* EnvironmentHelper.m */,
-			);
-			path = Environment;
-			sourceTree = "<group>";
-		};
-		D05E26AF161C776C0063EBA3 /* ExceptionHelper */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26B0161C776C0063EBA3 /* ExceptionHelper.h */,
-				D05E26B1161C776C0063EBA3 /* ExceptionHelper.m */,
-			);
-			path = ExceptionHelper;
-			sourceTree = "<group>";
-		};
-		D05E26B5161C776C0063EBA3 /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26B6161C776D0063EBA3 /* NSArrayHelper.h */,
-				D05E26B7161C776D0063EBA3 /* NSArrayHelper.m */,
-			);
-			path = NSArray;
-			sourceTree = "<group>";
-		};
-		D05E26B8161C776D0063EBA3 /* NSData */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26B9161C776D0063EBA3 /* NSDataHelper.h */,
-				D05E26BA161C776D0063EBA3 /* NSDataHelper.m */,
-			);
-			path = NSData;
-			sourceTree = "<group>";
-		};
-		D05E26BB161C776D0063EBA3 /* NSDate */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26BC161C776D0063EBA3 /* NSDateHelper.h */,
-				D05E26BD161C776D0063EBA3 /* NSDateHelper.m */,
-			);
-			path = NSDate;
-			sourceTree = "<group>";
-		};
-		D05E26BE161C776D0063EBA3 /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26BF161C776D0063EBA3 /* NSDictionaryHelper.h */,
-				D05E26C0161C776D0063EBA3 /* NSDictionaryHelper.m */,
-			);
-			path = NSDictionary;
-			sourceTree = "<group>";
-		};
-		D05E26C4161C776D0063EBA3 /* NSManagedObjectContext */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26C5161C776D0063EBA3 /* NSManagedObjectContextHelper.h */,
-				D05E26C6161C776D0063EBA3 /* NSManagedObjectContextHelper.m */,
-			);
-			path = NSManagedObjectContext;
-			sourceTree = "<group>";
-		};
-		D05E26C7161C776D0063EBA3 /* NSNull */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26C8161C776D0063EBA3 /* NSNullHelper.h */,
-				D05E26C9161C776D0063EBA3 /* NSNullHelper.m */,
-			);
-			path = NSNull;
-			sourceTree = "<group>";
-		};
-		D05E26CA161C776D0063EBA3 /* NSObject */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26CB161C776D0063EBA3 /* NSObjectHelper.h */,
-				D05E26CC161C776D0063EBA3 /* NSObjectHelper.m */,
-			);
-			path = NSObject;
-			sourceTree = "<group>";
-		};
-		D05E26CD161C776D0063EBA3 /* NSSet */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26CE161C776D0063EBA3 /* NSSetHelper.h */,
-				D05E26CF161C776D0063EBA3 /* NSSetHelper.m */,
-			);
-			path = NSSet;
-			sourceTree = "<group>";
-		};
-		D05E26D0161C776D0063EBA3 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26D1161C776D0063EBA3 /* NSStringHelper.h */,
-				D05E26D2161C776D0063EBA3 /* NSStringHelper.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		D05E26D6161C776D0063EBA3 /* NSURL */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26D7161C776D0063EBA3 /* NSURLHelper.h */,
-				D05E26D8161C776D0063EBA3 /* NSURLHelper.m */,
-			);
-			path = NSURL;
-			sourceTree = "<group>";
-		};
-		D05E26DF161C776D0063EBA3 /* UIAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26E0161C776D0063EBA3 /* UIAlertViewHelper.h */,
-				D05E26E1161C776D0063EBA3 /* UIAlertViewHelper.m */,
-			);
-			path = UIAlertView;
-			sourceTree = "<group>";
-		};
-		D05E26E2161C776D0063EBA3 /* UIApplication */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26E3161C776D0063EBA3 /* UIApplicationHelper.h */,
-				D05E26E4161C776D0063EBA3 /* UIApplicationHelper.m */,
-			);
-			path = UIApplication;
-			sourceTree = "<group>";
-		};
-		D05E26E5161C776D0063EBA3 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26E6161C776D0063EBA3 /* UIColorHelper.h */,
-				D05E26E7161C776D0063EBA3 /* UIColorHelper.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		D05E26E8161C776D0063EBA3 /* UIDevice */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26E9161C776D0063EBA3 /* UIDeviceHelper.h */,
-				D05E26EA161C776D0063EBA3 /* UIDeviceHelper.m */,
-			);
-			path = UIDevice;
-			sourceTree = "<group>";
-		};
-		D05E26EB161C776D0063EBA3 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26EC161C776D0063EBA3 /* UIImageHelper.h */,
-				D05E26ED161C776D0063EBA3 /* UIImageHelper.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		D05E26EE161C776D0063EBA3 /* UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26EF161C776D0063EBA3 /* UITableViewContentUnavailableView.h */,
-				D05E26F0161C776D0063EBA3 /* UITableViewContentUnavailableView.m */,
-				D05E26F1161C776D0063EBA3 /* UITableViewHelper.h */,
-				D05E26F2161C776D0063EBA3 /* UITableViewHelper.m */,
-				D05E26F3161C776D0063EBA3 /* UITableViewUpdatingView.h */,
-				D05E26F4161C776D0063EBA3 /* UITableViewUpdatingView.m */,
-			);
-			path = UITableView;
-			sourceTree = "<group>";
-		};
-		D05E26F5161C776D0063EBA3 /* UITableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26F6161C776D0063EBA3 /* UITableViewControllerHelper.h */,
-				D05E26F7161C776D0063EBA3 /* UITableViewControllerHelper.m */,
-			);
-			path = UITableViewController;
-			sourceTree = "<group>";
-		};
-		D05E26F8161C776D0063EBA3 /* UIToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26F9161C776D0063EBA3 /* UIToolbarEGOHelper.h */,
-				D05E26FA161C776D0063EBA3 /* UIToolbarEGOHelper.m */,
-			);
-			path = UIToolbar;
-			sourceTree = "<group>";
-		};
-		D05E26FB161C776D0063EBA3 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26FC161C776D0063EBA3 /* UIViewHelper.h */,
-				D05E26FD161C776D0063EBA3 /* UIViewHelper.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		D05E26FE161C776D0063EBA3 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D05E26FF161C776D0063EBA3 /* UIViewControllerHelper.h */,
-				D05E2700161C776D0063EBA3 /* UIViewControllerHelper.m */,
-			);
-			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,31 +308,29 @@
 				D05E2591161C61950063EBA3 /* main.m in Sources */,
 				D05E2595161C61950063EBA3 /* AppDelegate.m in Sources */,
 				D05E259E161C61950063EBA3 /* ViewController.m in Sources */,
-				D05E2701161C776D0063EBA3 /* CAAnimationEGOHelper.m in Sources */,
-				D05E2702161C776D0063EBA3 /* EnvironmentHelper.m in Sources */,
-				D05E2703161C776D0063EBA3 /* ExceptionHelper.m in Sources */,
-				D05E2705161C776D0063EBA3 /* NSArrayHelper.m in Sources */,
-				D05E2706161C776D0063EBA3 /* NSDataHelper.m in Sources */,
-				D05E2707161C776D0063EBA3 /* NSDateHelper.m in Sources */,
-				D05E2708161C776D0063EBA3 /* NSDictionaryHelper.m in Sources */,
-				D05E270A161C776D0063EBA3 /* NSManagedObjectContextHelper.m in Sources */,
-				D05E270B161C776D0063EBA3 /* NSNullHelper.m in Sources */,
-				D05E270C161C776D0063EBA3 /* NSObjectHelper.m in Sources */,
-				D05E270D161C776D0063EBA3 /* NSSetHelper.m in Sources */,
-				D05E270E161C776D0063EBA3 /* NSStringHelper.m in Sources */,
-				D05E2710161C776D0063EBA3 /* NSURLHelper.m in Sources */,
-				D05E2713161C776D0063EBA3 /* UIAlertViewHelper.m in Sources */,
-				D05E2714161C776D0063EBA3 /* UIApplicationHelper.m in Sources */,
-				D05E2715161C776D0063EBA3 /* UIColorHelper.m in Sources */,
-				D05E2716161C776D0063EBA3 /* UIDeviceHelper.m in Sources */,
-				D05E2717161C776D0063EBA3 /* UIImageHelper.m in Sources */,
-				D05E2718161C776D0063EBA3 /* UITableViewContentUnavailableView.m in Sources */,
-				D05E2719161C776D0063EBA3 /* UITableViewHelper.m in Sources */,
-				D05E271A161C776D0063EBA3 /* UITableViewUpdatingView.m in Sources */,
-				D05E271B161C776D0063EBA3 /* UITableViewControllerHelper.m in Sources */,
-				D05E271C161C776D0063EBA3 /* UIToolbarEGOHelper.m in Sources */,
-				D05E271D161C776D0063EBA3 /* UIViewHelper.m in Sources */,
-				D05E271E161C776D0063EBA3 /* UIViewControllerHelper.m in Sources */,
+				D00C2DF8161DC8A900E4D1E4 /* CAAnimationEGOHelper.m in Sources */,
+				D00C2DF9161DC8A900E4D1E4 /* NSArrayHelper.m in Sources */,
+				D00C2DFA161DC8A900E4D1E4 /* NSDataHelper.m in Sources */,
+				D00C2DFB161DC8A900E4D1E4 /* NSDateHelper.m in Sources */,
+				D00C2DFC161DC8A900E4D1E4 /* NSDictionaryHelper.m in Sources */,
+				D00C2DFD161DC8A900E4D1E4 /* NSManagedObjectContextHelper.m in Sources */,
+				D00C2DFE161DC8A900E4D1E4 /* NSNullHelper.m in Sources */,
+				D00C2DFF161DC8A900E4D1E4 /* NSObjectHelper.m in Sources */,
+				D00C2E00161DC8A900E4D1E4 /* NSSetHelper.m in Sources */,
+				D00C2E01161DC8A900E4D1E4 /* NSStringHelper.m in Sources */,
+				D00C2E02161DC8A900E4D1E4 /* NSURLHelper.m in Sources */,
+				D00C2E03161DC8A900E4D1E4 /* UIAlertViewHelper.m in Sources */,
+				D00C2E04161DC8A900E4D1E4 /* UIApplicationHelper.m in Sources */,
+				D00C2E05161DC8A900E4D1E4 /* UIColorHelper.m in Sources */,
+				D00C2E06161DC8A900E4D1E4 /* UIDeviceHelper.m in Sources */,
+				D00C2E07161DC8A900E4D1E4 /* UIImageHelper.m in Sources */,
+				D00C2E08161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m in Sources */,
+				D00C2E09161DC8A900E4D1E4 /* UITableViewControllerHelper.m in Sources */,
+				D00C2E0A161DC8A900E4D1E4 /* UITableViewHelper.m in Sources */,
+				D00C2E0B161DC8A900E4D1E4 /* UITableViewUpdatingView.m in Sources */,
+				D00C2E0C161DC8A900E4D1E4 /* UIToolbarEGOHelper.m in Sources */,
+				D00C2E0D161DC8A900E4D1E4 /* UIViewControllerHelper.m in Sources */,
+				D00C2E0E161DC8A900E4D1E4 /* UIViewHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
