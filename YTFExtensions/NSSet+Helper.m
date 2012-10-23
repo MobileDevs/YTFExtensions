@@ -1,9 +1,9 @@
 //
-//  UIViewHelper.m
+//  NSDictionaryHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 1/8/10.
-//  Copyright (c) 2010 enormego
+//  Created by Shaun Harrison on 10/29/08.
+//  Copyright (c) 2008-2009 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,45 +24,29 @@
 //  THE SOFTWARE.
 //
 
-#if TARGET_OS_IPHONE
-
-#import "UIViewHelper.h"
-#import <QuartzCore/QuartzCore.h>
-
-CGFloat DIW(CGFloat width) {
-	return DIWW(width, 320.0f, UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation) ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width);
-}
-
-CGFloat DIWW(CGFloat width, CGFloat baseWidth, CGFloat actualWidth) {
-	return floorf((width * actualWidth) / baseWidth);
-}
-
-@implementation UIView (EGOHelper)
+#import "NSSet+Helper.h"
 
 
+@implementation NSSet (Helper)
 
-- (UIView*)superviewWithClass:(Class)svClass {
-	return [self superviewWithClass:svClass strict:NO];
-}
 
-- (UIView*)superviewWithClass:(Class)svClass strict:(BOOL)strict {
-	UIView* view = self.superview;
-	
-	while(view) {
-		if(strict && [view isMemberOfClass:svClass]) {
-			break;
-		} else if(!strict && [view isKindOfClass:svClass]) {
-			break;
-		} else {
-			view = view.superview;
-		}
-	}
-	
-	return view;
+- (BOOL)isEmpty {
+	return [self count] == 0 ? YES : NO;
 }
 
 
+- (NSSet *)copyDeep
+{
+    NSMutableSet * ret = [[NSMutableSet alloc]
+                                 initWithCapacity:[self count]];
+    
+    for (id object in self.allObjects)
+    {
+        
+        [ret addObject:[object copy]];
+    }
+    
+    return ret;
+}
 
 @end
-
-#endif

@@ -1,9 +1,9 @@
 //
-//  UIToolbarEGOHelper.m
+//  NSObjectHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 4/25/10.
-//  Copyright 2010 enormego. All rights reserved.
+//  Created by Shaun Harrison on 5/7/09.
+//  Copyright (c) 2009 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,29 +24,20 @@
 //  THE SOFTWARE.
 //
 
-#import "UIToolbarEGOHelper.h"
+#import "NSObject+Helper.h"
 
 
-@implementation UIToolbar (EGOHelper)
 
-- (void)setItemTitle:(NSString*)title forTag:(NSInteger)tag {
-	UIBarButtonItem* item = [self itemWithTag:tag];
-	if(!item) return;
-	item.title = title ? title : @"";
+@implementation NSObject (Helper)
+
+
+
+- (NSArray*)arrayValue {
+	return [NSArray arrayWithObject:self];
 }
 
-- (UIBarButtonItem*)itemWithTag:(NSInteger)tag {
-	for(UIBarButtonItem* item in self.items) {
-		if(item.tag == tag) {
-			return item;
-		}
-	}
-	
-	return nil;
-}
-
-- (NSUInteger)indexOfItemWithTag:(NSInteger)tag {
-	return [self.items indexOfObject:[self itemWithTag:tag]];
+- (NSMutableArray*)mutableArrayValue {
+	return [NSMutableArray arrayWithObject:self];
 }
 
 @end

@@ -1,8 +1,8 @@
 //
-//  UIToolbarEGOHelper.h
+//  UIToolbarEGOHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Devin Doty on 5/16/10.
+//  Created by Shaun Harrison on 4/25/10.
 //  Copyright 2010 enormego. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,37 +24,29 @@
 //  THE SOFTWARE.
 //
 
-#import "CAAnimationEGOHelper.h"
+#import "UIToolbar+EGOHelper.h"
 
-@implementation CAAnimation (EGOHelper)
 
-+ (CAKeyframeAnimation*)popInAnimation {
-	CAKeyframeAnimation* animation = [CAKeyframeAnimation animation];
-	
-	animation.values = [NSArray arrayWithObjects:
-									[NSValue valueWithCATransform3D:CATransform3DMakeScale(0.9, 0.9, 1.0)],
-									[NSValue valueWithCATransform3D:CATransform3DMakeScale(1.05, 1.05, 1.0)],
-									[NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 1.0)],
-							nil];
-	
-	animation.duration = 0.3f;
-	return animation;
+@implementation UIToolbar (EGOHelper)
+
+- (void)setItemTitle:(NSString*)title forTag:(NSInteger)tag {
+	UIBarButtonItem* item = [self itemWithTag:tag];
+	if(!item) return;
+	item.title = title ? title : @"";
 }
 
-@end
-
-@implementation UIView (CAAnimationEGOHelper)
-
-- (void)popInAnimated {
-	[self.layer popInAnimated];
+- (UIBarButtonItem*)itemWithTag:(NSInteger)tag {
+	for(UIBarButtonItem* item in self.items) {
+		if(item.tag == tag) {
+			return item;
+		}
+	}
+	
+	return nil;
 }
 
-@end
-
-@implementation CALayer (CAAnimationEGOHelper)
-
-- (void)popInAnimated {
-	[self addAnimation:[CAAnimation popInAnimation] forKey:@"transform"];
+- (NSUInteger)indexOfItemWithTag:(NSInteger)tag {
+	return [self.items indexOfObject:[self itemWithTag:tag]];
 }
 
 @end

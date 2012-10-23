@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSStringHelper.h"
+#import "NSString+Helper.h"
 #import <CommonCrypto/CommonDigest.h>
 
 int const GGCharacterIsNotADigit = 10;

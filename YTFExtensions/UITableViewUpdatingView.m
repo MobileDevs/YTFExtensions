@@ -25,7 +25,7 @@
 //
 
 #import "UITableViewUpdatingView.h"
-#import "NSStringHelper.h"
+#import "NSString+Helper.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define LABEL_FONT [UIFont boldSystemFontOfSize:16.0f]

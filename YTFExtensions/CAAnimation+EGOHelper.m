@@ -1,9 +1,9 @@
 //
-//  NSDictionaryHelper.m
+//  UIToolbarEGOHelper.h
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 10/29/08.
-//  Copyright (c) 2008-2009 enormego
+//  Created by Devin Doty on 5/16/10.
+//  Copyright 2010 enormego. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,37 +24,37 @@
 //  THE SOFTWARE.
 //
 
-#import "NSDictionaryHelper.h"
+#import "CAAnimation+EGOHelper.h"
 
+@implementation CAAnimation (EGOHelper)
 
-@implementation NSDictionary (Helper)
-
-- (BOOL)containsObjectForKey:(id)key {
-	return [[self allKeys] containsObject:key];
-}
-
-- (BOOL)isEmpty {
-	return [self count] == 0 ? YES : NO;
++ (CAKeyframeAnimation*)popInAnimation {
+	CAKeyframeAnimation* animation = [CAKeyframeAnimation animation];
+	
+	animation.values = [NSArray arrayWithObjects:
+									[NSValue valueWithCATransform3D:CATransform3DMakeScale(0.9, 0.9, 1.0)],
+									[NSValue valueWithCATransform3D:CATransform3DMakeScale(1.05, 1.05, 1.0)],
+									[NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 1.0)],
+							nil];
+	
+	animation.duration = 0.3f;
+	return animation;
 }
 
 @end
 
-@implementation NSMutableDictionary (Helper)
-- (NSMutableDictionary *)copyDeep
-{
-    NSMutableDictionary * ret = [[NSMutableDictionary alloc]
-                                 initWithCapacity:[self count]];
-    
-    NSMutableArray * array;
-    
-    for (id key in [self allKeys])
-    {
-        array = [(NSArray *)[self objectForKey:key] copy];
-        [ret setValue:array forKey:key];
-        [array release];
-    }
-    
-    return ret;
+@implementation UIView (CAAnimationEGOHelper)
+
+- (void)popInAnimated {
+	[self.layer popInAnimated];
+}
+
+@end
+
+@implementation CALayer (CAAnimationEGOHelper)
+
+- (void)popInAnimated {
+	[self addAnimation:[CAAnimation popInAnimation] forKey:@"transform"];
 }
 
 @end

@@ -25,7 +25,7 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UIImageHelper.h"
+#import "UIImage+Helper.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 

@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSManagedObjectContextHelper.h"
+#import "NSManagedObjectContext+Helper.h"
 
 @implementation  NSManagedObjectContext (Helper)
 

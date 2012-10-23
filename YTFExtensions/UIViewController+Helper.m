@@ -25,7 +25,7 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UIViewControllerHelper.h"
+#import "UIViewController+Helper.h"
 
 @implementation UIViewController (Helper)
 

@@ -1,8 +1,8 @@
 //
-//  NSArrayHelper.m
-//  Enormego Cocoa Helpers
+//  UIDeviceHelper.m
+//  CocoaHelpers
 //
-//  Created by Shaun Harrison on 10/28/08.
+//  Created by Shaun Harrison on 12/11/08.
 //  Copyright (c) 2008-2009 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,31 +24,22 @@
 //  THE SOFTWARE.
 //
 
-#import "NSArrayHelper.h"
+#import "UIDevice+Helper.h"
+#include <sys/sysctl.h>  
+#include <mach/mach.h>
 
+@implementation UIDevice (Helper)
 
-@implementation NSArray (Helper)
-
-+ (NSArray*)arrayWithAlphaNumericTitles {
-	return [self arrayWithAlphaNumericTitlesWithSearch:NO];
-}
-
-+ (NSArray*)arrayWithAlphaNumericTitlesWithSearch:(BOOL)search {
-	if(search) {
-		return [NSArray arrayWithObjects: @"{search}",
-				@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", 
-				@"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", 
-				@"W", @"X", @"Y", @"Z", @"#", nil];
-	} else {
-		return [NSArray arrayWithObjects:
-				@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", 
-				@"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", 
-				@"W", @"X", @"Y", @"Z", @"#", nil];
+- (double)availableMemory {
+	vm_statistics_data_t vmStats;
+	mach_msg_type_number_t infoCount = HOST_VM_INFO_COUNT;
+	kern_return_t kernReturn = host_statistics(mach_host_self(), HOST_VM_INFO, (host_info_t)&vmStats, &infoCount);
+	
+	if(kernReturn != KERN_SUCCESS) {
+		return NSNotFound;
 	}
-}
-
-- (BOOL)isEmpty {
-	return [self count] == 0 ? YES : NO;
+	
+	return ((vm_page_size * vmStats.free_count) / 1024.0) / 1024.0;
 }
 
 @end

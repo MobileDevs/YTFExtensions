@@ -24,26 +24,34 @@
 //  THE SOFTWARE.
 //
 
-#import "NSSetHelper.h"
+#import "NSDictionary+Helper.h"
 
 
-@implementation NSSet (Helper)
+@implementation NSDictionary (Helper)
 
+- (BOOL)containsObjectForKey:(id)key {
+	return [[self allKeys] containsObject:key];
+}
 
 - (BOOL)isEmpty {
 	return [self count] == 0 ? YES : NO;
 }
 
+@end
 
-- (NSSet *)copyDeep
+@implementation NSMutableDictionary (Helper)
+- (NSMutableDictionary *)copyDeep
 {
-    NSMutableSet * ret = [[NSMutableSet alloc]
+    NSMutableDictionary * ret = [[NSMutableDictionary alloc]
                                  initWithCapacity:[self count]];
     
-    for (id object in self.allObjects)
+    NSMutableArray * array;
+    
+    for (id key in [self allKeys])
     {
-        
-        [ret addObject:[object copy]];
+        array = [(NSArray *)[self objectForKey:key] copy];
+        [ret setValue:array forKey:key];
+        [array release];
     }
     
     return ret;

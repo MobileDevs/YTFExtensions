@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSDateHelper.h"
+#import "NSDate+Helper.h"
 
 #define LocalizedString(str) NSLocalizedString(str, @"")
 

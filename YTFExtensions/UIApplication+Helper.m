@@ -25,7 +25,7 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UIApplicationHelper.h"
+#import "UIApplication+Helper.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation UIApplication (Helper)

@@ -1,9 +1,9 @@
 //
-//  UIAlertViewHelper.m
+//  UIViewHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 10/16/08.
-//  Copyright (c) 2008-2009 enormego
+//  Created by Shaun Harrison on 1/8/10.
+//  Copyright (c) 2010 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,22 +25,44 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UIAlertViewHelper.h"
-#import "NSStringHelper.h"
 
-void UIAlertViewQuick(NSString* title, NSString* message, NSString* dismissButtonTitle) {
-	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:LocalizedString(title) 
-													message:LocalizedString(message) 
-												   delegate:nil 
-										  cancelButtonTitle:LocalizedString(dismissButtonTitle) 
-										  otherButtonTitles:nil
-						  ];
-	[alert show];
-	[alert autorelease];
+#import "UIView+Helper.h"
+#import <QuartzCore/QuartzCore.h>
+
+CGFloat DIW(CGFloat width) {
+	return DIWW(width, 320.0f, UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation) ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width);
+}
+
+CGFloat DIWW(CGFloat width, CGFloat baseWidth, CGFloat actualWidth) {
+	return floorf((width * actualWidth) / baseWidth);
+}
+
+@implementation UIView (EGOHelper)
+
+
+
+- (UIView*)superviewWithClass:(Class)svClass {
+	return [self superviewWithClass:svClass strict:NO];
+}
+
+- (UIView*)superviewWithClass:(Class)svClass strict:(BOOL)strict {
+	UIView* view = self.superview;
+	
+	while(view) {
+		if(strict && [view isMemberOfClass:svClass]) {
+			break;
+		} else if(!strict && [view isKindOfClass:svClass]) {
+			break;
+		} else {
+			view = view.superview;
+		}
+	}
+	
+	return view;
 }
 
 
-@implementation UIAlertView (Helper)
 
 @end
+
 #endif

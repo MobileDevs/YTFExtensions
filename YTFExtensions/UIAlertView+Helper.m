@@ -1,8 +1,8 @@
 //
-//  UIColorHelper.m
+//  UIAlertViewHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 11/20/08.
+//  Created by Shaun Harrison on 10/16/08.
 //  Copyright (c) 2008-2009 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,18 +25,22 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UIColorHelper.h"
+#import "UIAlertView+Helper.h"
+#import "NSString+Helper.h"
 
-UIColor* UIColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue) {
-	return [UIColor colorWithRed:red/255.0f green:green/255.0f blue:blue/255.0f alpha:1.0f];
+void UIAlertViewQuick(NSString* title, NSString* message, NSString* dismissButtonTitle) {
+	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:LocalizedString(title) 
+													message:LocalizedString(message) 
+												   delegate:nil 
+										  cancelButtonTitle:LocalizedString(dismissButtonTitle) 
+										  otherButtonTitles:nil
+						  ];
+	[alert show];
+	[alert autorelease];
 }
 
-@implementation UIColor (Helper)
 
-+ (UIColor*) colorWithIntARGB: (int) value
-{
-    return [UIColor colorWithRed: ((value >> 16)& 0xFF) / 255.0f green: ((value >> 8) & 0xFF) / 255.0f blue: ((value >> 0) & 0xFF) / 255.0f alpha: ((value >> 24) & 0xFF) / 255.0f];
-}
+@implementation UIAlertView (Helper)
 
 @end
 #endif

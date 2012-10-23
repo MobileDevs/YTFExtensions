@@ -1,9 +1,9 @@
 //
-//  NSObjectHelper.m
+//  UIColorHelper.m
 //  Enormego Cocoa Helpers
 //
-//  Created by Shaun Harrison on 5/7/09.
-//  Copyright (c) 2009 enormego
+//  Created by Shaun Harrison on 11/20/08.
+//  Copyright (c) 2008-2009 enormego
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,20 +24,19 @@
 //  THE SOFTWARE.
 //
 
-#import "NSObjectHelper.h"
+#if TARGET_OS_IPHONE
+#import "UIColor+Helper.h"
 
-
-
-@implementation NSObject (Helper)
-
-
-
-- (NSArray*)arrayValue {
-	return [NSArray arrayWithObject:self];
+UIColor* UIColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue) {
+	return [UIColor colorWithRed:red/255.0f green:green/255.0f blue:blue/255.0f alpha:1.0f];
 }
 
-- (NSMutableArray*)mutableArrayValue {
-	return [NSMutableArray arrayWithObject:self];
+@implementation UIColor (Helper)
+
++ (UIColor*) colorWithIntARGB: (int) value
+{
+    return [UIColor colorWithRed: ((value >> 16)& 0xFF) / 255.0f green: ((value >> 8) & 0xFF) / 255.0f blue: ((value >> 0) & 0xFF) / 255.0f alpha: ((value >> 24) & 0xFF) / 255.0f];
 }
 
 @end
+#endif

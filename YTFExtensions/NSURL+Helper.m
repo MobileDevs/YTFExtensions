@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSURLHelper.h"
+#import "NSURL+Helper.h"
 
 
 @implementation NSURL (Helper)

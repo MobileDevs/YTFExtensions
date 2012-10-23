@@ -25,7 +25,7 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UITableViewControllerHelper.h"
+#import "UITableViewController+Helper.h"
 
 @implementation UITableViewController (Helper)
 

@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "NSDataHelper.h"
+#import "NSData+Helper.h"
 
 @implementation NSData (Helper)
 

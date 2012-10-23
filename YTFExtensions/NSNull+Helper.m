@@ -6,7 +6,7 @@
 //  Copyright 2011 __CustomerCompanyName__. All rights reserved.
 //
 
-#import "NSNullHelper.h"
+#import "NSNull+Helper.h"
 
 @implementation NSNull (Helper)
 

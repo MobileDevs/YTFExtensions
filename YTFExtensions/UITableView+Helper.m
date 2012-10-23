@@ -25,7 +25,7 @@
 //
 
 #if TARGET_OS_IPHONE
-#import "UITableViewHelper.h"
+#import "UITableView+Helper.h"
 #import "UITableViewContentUnavailableView.h"
 #import "UITableViewUpdatingView.h"
 
