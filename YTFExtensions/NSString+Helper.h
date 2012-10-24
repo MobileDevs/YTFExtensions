@@ -30,6 +30,10 @@
  * Short hand NSLocalizedString, doesn't need 2 parameters
  */
 #define LocalizedString(s) NSLocalizedString(s,s)
+/* 
+ * Very short define for localizable strings.
+ */
+#define _(string) NSLocalizedString(string, string)
 
 /*
  * LocalizedString with an additionl parameter for formatting
