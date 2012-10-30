@@ -6,10 +6,7 @@
 #import "UIImage+RoundedCorner.h"
 #import "UIImage+Alpha.h"
 
-// Private helper methods
-@interface UIImage ()
-- (void)addRoundedRectToPath:(CGRect)rect context:(CGContextRef)context ovalWidth:(CGFloat)ovalWidth ovalHeight:(CGFloat)ovalHeight;
-@end
+
 
 @implementation UIImage (RoundedCorner)
 
@@ -52,8 +49,7 @@
     return roundedImage;
 }
 
-#pragma mark -
-#pragma mark Private helper methods
+
 
 // Adds a rectangular path to the given context and rounds its corners by the given extents
 // Original author: Björn Sållarp. Used with permission. See: http://blog.sallarp.com/iphone-uiimage-round-corners/

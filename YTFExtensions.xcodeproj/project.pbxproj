@@ -43,6 +43,9 @@
 		D05E2726161C78930063EBA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2725161C78930063EBA3 /* QuartzCore.framework */; };
 		D05E2728161C79370063EBA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2727161C79370063EBA3 /* CoreData.framework */; };
 		D05E272A161C799A0063EBA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2729161C799A0063EBA3 /* CoreGraphics.framework */; };
+		D0D773CA16400EEA0027F4C3 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */; };
+		D0D773CB16400EEA0027F4C3 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */; };
+		D0D773CC16400EEA0027F4C3 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +114,12 @@
 		D05E2725161C78930063EBA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D05E2727161C79370063EBA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D05E2729161C799A0063EBA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0D773C416400EEA0027F4C3 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		D0D773C616400EEA0027F4C3 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		D0D773C816400EEA0027F4C3 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +171,12 @@
 		D05E2574161C614D0063EBA3 /* YTFExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				D0D773C416400EEA0027F4C3 /* UIImage+Alpha.h */,
+				D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */,
+				D0D773C616400EEA0027F4C3 /* UIImage+Resize.h */,
+				D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */,
+				D0D773C816400EEA0027F4C3 /* UIImage+RoundedCorner.h */,
+				D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */,
 				D00C2DCA161DC8A900E4D1E4 /* CAAnimation+EGOHelper.h */,
 				D00C2DCB161DC8A900E4D1E4 /* CAAnimation+EGOHelper.m */,
 				D00C2DCC161DC8A900E4D1E4 /* NSArray+Helper.h */,
@@ -331,6 +346,9 @@
 				D00C2E0C161DC8A900E4D1E4 /* UIToolbar+EGOHelper.m in Sources */,
 				D00C2E0D161DC8A900E4D1E4 /* UIViewController+Helper.m in Sources */,
 				D00C2E0E161DC8A900E4D1E4 /* UIView+Helper.m in Sources */,
+				D0D773CA16400EEA0027F4C3 /* UIImage+Alpha.m in Sources */,
+				D0D773CB16400EEA0027F4C3 /* UIImage+Resize.m in Sources */,
+				D0D773CC16400EEA0027F4C3 /* UIImage+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
