@@ -39,6 +39,12 @@ UIColor* UIColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue);
 @interface UIColor (Helper)
 
 + (UIColor*) colorWithIntARGB: (int) value;
+- (NSString *) hexHtmlString;
++ (NSString *) hexHtmlStringFrom:(float)red green:(float)green blue:(float) blue;
++ (NSString *) hexHtmlStringFrom:(float)red green:(float)green blue:(float) blue alpha:(float)alpha;
+
+
+
 
 @end
 #endif

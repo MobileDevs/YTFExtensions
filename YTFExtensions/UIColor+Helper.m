@@ -38,5 +38,33 @@ UIColor* UIColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue) {
     return [UIColor colorWithRed: ((value >> 16)& 0xFF) / 255.0f green: ((value >> 8) & 0xFF) / 255.0f blue: ((value >> 0) & 0xFF) / 255.0f alpha: ((value >> 24) & 0xFF) / 255.0f];
 }
 
+- (NSString *) hexHtmlString {
+    CGFloat red = 0.0, green = 0.0, blue = 0.0, alpha = 0.0;
+    
+    if ([self respondsToSelector:@selector(getRed:green:blue:alpha:)]) {
+        [self getRed:&red green:&green blue:&blue alpha:&alpha];
+        return [UIColor hexHtmlStringFrom:red green:green blue:blue alpha:alpha];
+    } else {
+        const CGFloat *components = CGColorGetComponents(self.CGColor);
+        red = components[0];
+        green = components[1];
+        blue = components[2];
+        alpha = components[3];
+        
+        return [UIColor hexHtmlStringFrom:red green:green blue:blue];
+    }
+    
+    return @"#FFFFFF";
+
+}
+
++ (NSString *) hexHtmlStringFrom:(float)red green:(float)green blue:(float) blue {
+    return [NSString stringWithFormat:@"#%02X%02X%02X", (int)(red*255.0), (int)(green*255.0), (int)(blue*255.0)];
+}
+
++ (NSString *) hexHtmlStringFrom:(float)red green:(float)green blue:(float) blue alpha:(float)alpha{
+    return [NSString stringWithFormat:@"#%02X%02X%02X%02X", (int)(red*255.0), (int)(green*255.0), (int)(blue*255.0),(int)(alpha*255.0)];
+}
+
 @end
 #endif
