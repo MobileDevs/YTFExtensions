@@ -47,7 +47,7 @@
 		[baseString appendString:[self host]];
 		
 		if([self port]) {
-			[baseString appendFormat:@":%@", [[self port] integerValue]];
+			[baseString appendFormat:@":%d", [[self port] intValue]];
 		}
 		
 		[baseString appendString:@"/"];
@@ -75,6 +75,20 @@
 		
 		return baseString;
 	}
+}
+
+- (NSDictionary *) queryParameters {
+    NSMutableDictionary *dict = [[[NSMutableDictionary alloc] initWithCapacity:6] autorelease];
+    NSArray *pairs = [self.absoluteString componentsSeparatedByString:@"&"];
+    
+    for (NSString *pair in pairs) {
+        NSArray *elements = [pair componentsSeparatedByString:@"="];
+        NSString *key = [[elements objectAtIndex:0] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        NSString *val = [[elements objectAtIndex:1] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        
+        [dict setObject:val forKey:key];
+    }
+    return dict;
 }
 
 @end

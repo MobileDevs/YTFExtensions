@@ -38,4 +38,9 @@
  */
 - (NSString*)baseString;
 
+
+/*
+ * Returns dictionary of parameters parsed from url
+ */
+- (NSDictionary *) queryParameters;
 @end

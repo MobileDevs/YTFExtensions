@@ -48,6 +48,7 @@ enum {
 
 @interface NSString (Helper)
 
+
 + (NSString*) stringWithJoinedStrings: (NSString*) firstString, ...;
 /*
  * Returns a comma separated NSString for an NSUInteger
@@ -82,5 +83,6 @@ enum {
 - (NSString*)stringByTruncatingToLength:(int)length;
 - (NSString*)stringByTruncatingToLength:(int)length direction:(NSTruncateStringPosition)truncateFrom;
 - (NSString*)stringByTruncatingToLength:(int)length direction:(NSTruncateStringPosition)truncateFrom withEllipsisString:(NSString*)ellipsis;
+
 
 @end
