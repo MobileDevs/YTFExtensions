@@ -49,6 +49,11 @@ enum {
 @interface NSString (Helper)
 
 
+/*
+ * Returns YES if string nil or empty
+ */
+-(BOOL)isEmpty;
+
 + (NSString*) stringWithJoinedStrings: (NSString*) firstString, ...;
 /*
  * Returns a comma separated NSString for an NSUInteger

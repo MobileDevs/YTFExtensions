@@ -25,6 +25,7 @@
 //
 
 #import "NSURL+Helper.h"
+#import "NSString+Helper.h"
 
 
 @implementation NSURL (Helper)
@@ -78,8 +79,17 @@
 }
 
 - (NSDictionary *) queryParameters {
-    NSMutableDictionary *dict = [[[NSMutableDictionary alloc] initWithCapacity:6] autorelease];
-    NSArray *pairs = [self.absoluteString componentsSeparatedByString:@"&"];
+    
+    // get query params
+    NSRange end = [self.absoluteString rangeOfString:@"?"];
+    if(end.length == 0) return nil;
+    
+    NSString * parametersString = [self.absoluteString substringFromIndex:end.location+1];
+    if(![parametersString isEmpty]) return nil;
+    
+    
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithCapacity:6];
+    NSArray *pairs = [parametersString componentsSeparatedByString:@"&"];
     
     for (NSString *pair in pairs) {
         NSArray *elements = [pair componentsSeparatedByString:@"="];

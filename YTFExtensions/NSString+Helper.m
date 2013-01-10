@@ -196,6 +196,13 @@ int const GGCharacterIsNotADigit = 10;
 	}
 }
 
+-(BOOL)isEmpty{
+    if(!self) return YES;
+    if([self isEqualToString:@""]) return YES;
+    
+    return NO;
+}
+
 
 
 @end
