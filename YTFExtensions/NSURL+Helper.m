@@ -85,7 +85,7 @@
     if(end.length == 0) return nil;
     
     NSString * parametersString = [self.absoluteString substringFromIndex:end.location+1];
-    if(![parametersString isEmpty]) return nil;
+    if([parametersString isEmpty]) return nil;
     
     
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithCapacity:6];
