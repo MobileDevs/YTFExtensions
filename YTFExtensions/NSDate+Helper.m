@@ -346,4 +346,22 @@
 	return [[NSCalendar currentCalendar] dateFromComponents:[[NSCalendar currentCalendar] components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit) fromDate:self]];
 }
 
+- (BOOL) isTheSameDayWithDate: (NSDate *) date
+{
+    if ([self timeIntervalSinceDate:date] > 86400.f)
+    {
+        return NO;
+    }
+    
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    
+    unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit;
+    NSDateComponents* comp1 = [calendar components:unitFlags fromDate:self];
+    NSDateComponents* comp2 = [calendar components:unitFlags fromDate:date];
+    
+    return [comp1 day]   == [comp2 day] &&
+    [comp1 month] == [comp2 month] &&
+    [comp1 year]  == [comp2 year];
+}
+
 @end

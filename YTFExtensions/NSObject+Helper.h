@@ -26,6 +26,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define IS_NOTNIL_NOTNULL(x) x != nil && (NSNull *)x != [NSNull null]
+
 @interface NSObject (Helper)
 
 // Returns a NSArray containing just this object

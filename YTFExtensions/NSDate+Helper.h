@@ -90,4 +90,6 @@
 // Returns the current date, at midnight
 - (NSDate*)midnightDate;
 
+- (BOOL) isTheSameDayWithDate: (NSDate *) date;
+
 @end
