@@ -44,7 +44,7 @@ int const GGCharacterIsNotADigit = 10;
 		}
 		
 		va_start(argumentList, firstString);
-		while (eachString = va_arg(argumentList, NSString*))
+		while ((eachString = va_arg(argumentList, NSString*)))
 		{
 			if (![eachString isEqualToString: @""]) 
 			{

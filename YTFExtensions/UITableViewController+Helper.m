@@ -42,7 +42,7 @@
 }
 
 - (CGFloat)cellHeightWithText:(NSString*)text padding:(float)padding minimumHeight:(float)minimumHeight maximumHeight:(float)maximumHeight {
-	CGSize size = [text sizeWithFont:[UIFont systemFontOfSize:14.0f] constrainedToSize:CGSizeMake(300.0f, 99999999.0f) lineBreakMode:UILineBreakModeWordWrap];
+	CGSize size = [text sizeWithFont:[UIFont systemFontOfSize:14.0f] constrainedToSize:CGSizeMake(300.0f, 99999999.0f) lineBreakMode:NSLineBreakByWordWrapping];
 	float height = size.height + padding;
 	if(minimumHeight > 0.0f && height < minimumHeight) {
 		height = minimumHeight;

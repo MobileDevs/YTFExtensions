@@ -52,6 +52,8 @@ withPredicate:(id)stringOrPredicate, ...
         {
             if([stringOrPredicate isKindOfClass:[NSPredicate class]]){
                 predicate = (NSPredicate *)stringOrPredicate;
+            } else {
+                predicate = nil;
             }
         }
         [request setPredicate:predicate];

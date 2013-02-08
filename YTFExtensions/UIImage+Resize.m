@@ -13,7 +13,7 @@
                 transform:(CGAffineTransform)transform
            drawTransposed:(BOOL)transpose
      interpolationQuality:(CGInterpolationQuality)quality;
-- (CGAffineTransform)transformForOrientation:(CGSize)newSize;
+- (CGAffineTransform)newTransformForOrientation:(CGSize)newSize;
 @end
 
 @implementation UIImage (Resize)
@@ -70,7 +70,7 @@
     }
     
     return [self resizedImage:newSize
-                    transform:[self transformForOrientation:newSize]
+                    transform:[self newTransformForOrientation:newSize]
                drawTransposed:drawTransposed
          interpolationQuality:quality];
 }
@@ -145,7 +145,7 @@
 }
 
 // Returns an affine transform that takes into account the image orientation when drawing a scaled image
-- (CGAffineTransform)transformForOrientation:(CGSize)newSize {
+- (CGAffineTransform)newTransformForOrientation:(CGSize)newSize {
     CGAffineTransform transform = CGAffineTransformIdentity;
     
     switch (self.imageOrientation) {

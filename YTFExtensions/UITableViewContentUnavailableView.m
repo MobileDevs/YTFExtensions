@@ -41,7 +41,7 @@
 		label.backgroundColor = self.backgroundColor;
 		label.autoresizingMask = self.autoresizingMask;
 		label.text = NSLocalizedString(@"Content Unavailable", @"");
-		label.textAlignment = UITextAlignmentCenter;
+		label.textAlignment = NSTextAlignmentCenter;
 		label.font = [UIFont boldSystemFontOfSize:13.0f];
 		label.textColor = UIColorMakeRGB(0, 91, 132);
 		label.shadowColor = [UIColor colorWithWhite:0.0f alpha:0.5f];
