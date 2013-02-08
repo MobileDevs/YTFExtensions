@@ -34,7 +34,7 @@ withPredicate:(id)stringOrPredicate, ...
     NSEntityDescription *entity = [NSEntityDescription
                                    entityForName:newEntityName inManagedObjectContext:self];
     
-    NSFetchRequest *request = [[[NSFetchRequest alloc] init] autorelease];
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
     [request setEntity:entity];
     
     if (stringOrPredicate)

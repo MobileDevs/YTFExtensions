@@ -53,7 +53,7 @@
 		
 		[baseString appendString:@"/"];
 		
-		return [baseString autorelease];
+		return baseString;
 	}
 	
 	// Oh Well, time to strip it down

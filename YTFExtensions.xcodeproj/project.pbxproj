@@ -45,43 +45,43 @@
 		D05E272A161C799A0063EBA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2729161C799A0063EBA3 /* CoreGraphics.framework */; };
 		D0D773CA16400EEA0027F4C3 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */; };
 		D0D773CC16400EEA0027F4C3 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */; };
-		F96DF07316C52B9F00F08A84 /* NSDate+TimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07216C52B9F00F08A84 /* NSDate+TimeZones.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F96DF07616C52C3E00F08A84 /* NSDictionary+URLParametrs.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07516C52C3E00F08A84 /* NSDictionary+URLParametrs.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F96DF07916C52C8600F08A84 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07816C52C8600F08A84 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F96DF07C16C52D0F00F08A84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07B16C52D0F00F08A84 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F95D666D16C53B84002B2C85 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD1161DC8A900E4D1E4 /* NSDate+Helper.m */; };
+		F95D666E16C53B84002B2C85 /* NSDate+TimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07216C52B9F00F08A84 /* NSDate+TimeZones.m */; };
+		F95D666F16C53B84002B2C85 /* UITableViewContentUnavailableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEB161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m */; };
+		F95D667016C53B84002B2C85 /* UITableViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DED161DC8A900E4D1E4 /* UITableViewController+Helper.m */; };
+		F95D667116C53B84002B2C85 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEF161DC8A900E4D1E4 /* UITableView+Helper.m */; };
+		F95D667216C53B84002B2C85 /* UITableViewUpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF1161DC8A900E4D1E4 /* UITableViewUpdatingView.m */; };
+		F95D667316C53B84002B2C85 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07B16C52D0F00F08A84 /* GTMNSString+HTML.m */; };
+		F95D667416C53B84002B2C85 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07816C52C8600F08A84 /* NSString+HTML.m */; };
+		F95D667516C53B84002B2C85 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDD161DC8A900E4D1E4 /* NSString+Helper.m */; };
+		F95D667616C53B84002B2C85 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDF161DC8A900E4D1E4 /* NSURL+Helper.m */; };
+		F95D667716C53B84002B2C85 /* NSDictionary+URLParametrs.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07516C52C3E00F08A84 /* NSDictionary+URLParametrs.m */; };
+		F95D667816C53B84002B2C85 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCD161DC8A900E4D1E4 /* NSArray+Helper.m */; };
+		F95D667916C53B84002B2C85 /* NSData+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCF161DC8A900E4D1E4 /* NSData+Helper.m */; };
+		F95D667A16C53B84002B2C85 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD3161DC8A900E4D1E4 /* NSDictionary+Helper.m */; };
+		F95D667B16C53B84002B2C85 /* NSSet+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDB161DC8A900E4D1E4 /* NSSet+Helper.m */; };
+		F95D667C16C53B84002B2C85 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */; };
+		F95D667D16C53B84002B2C85 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */; };
+		F95D667E16C53B84002B2C85 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */; };
+		F95D667F16C53B84002B2C85 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE9161DC8A900E4D1E4 /* UIImage+Helper.m */; };
+		F95D668016C53B84002B2C85 /* CAAnimation+EGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCB161DC8A900E4D1E4 /* CAAnimation+EGOHelper.m */; };
+		F95D668116C53B84002B2C85 /* NSManagedObjectContext+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD5161DC8A900E4D1E4 /* NSManagedObjectContext+Helper.m */; };
+		F95D668216C53B84002B2C85 /* NSNull+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD7161DC8A900E4D1E4 /* NSNull+Helper.m */; };
+		F95D668316C53B84002B2C85 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD9161DC8A900E4D1E4 /* NSObject+Helper.m */; };
+		F95D668416C53B84002B2C85 /* UIAlertView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE1161DC8A900E4D1E4 /* UIAlertView+Helper.m */; };
+		F95D668516C53B84002B2C85 /* UIApplication+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE3161DC8A900E4D1E4 /* UIApplication+Helper.m */; };
+		F95D668616C53B84002B2C85 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE5161DC8A900E4D1E4 /* UIColor+Helper.m */; };
+		F95D668716C53B84002B2C85 /* UIDevice+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE7161DC8A900E4D1E4 /* UIDevice+Helper.m */; };
+		F95D668816C53B84002B2C85 /* UIToolbar+EGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF3161DC8A900E4D1E4 /* UIToolbar+EGOHelper.m */; };
+		F95D668916C53B84002B2C85 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF5161DC8A900E4D1E4 /* UIViewController+Helper.m */; };
+		F95D668A16C53B84002B2C85 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF7161DC8A900E4D1E4 /* UIView+Helper.m */; };
+		F96DF07316C52B9F00F08A84 /* NSDate+TimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07216C52B9F00F08A84 /* NSDate+TimeZones.m */; };
+		F96DF07616C52C3E00F08A84 /* NSDictionary+URLParametrs.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07516C52C3E00F08A84 /* NSDictionary+URLParametrs.m */; };
+		F96DF07916C52C8600F08A84 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07816C52C8600F08A84 /* NSString+HTML.m */; };
+		F96DF07C16C52D0F00F08A84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07B16C52D0F00F08A84 /* GTMNSString+HTML.m */; };
 		F96DF08216C5348600F08A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E271F161C78820063EBA3 /* Foundation.framework */; };
 		F96DF08D16C534E900F08A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E2721161C78880063EBA3 /* UIKit.framework */; };
-		F96DF08F16C534F800F08A84 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD1161DC8A900E4D1E4 /* NSDate+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF09116C534F800F08A84 /* NSDate+TimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07216C52B9F00F08A84 /* NSDate+TimeZones.m */; };
-		F96DF09316C534F800F08A84 /* UITableViewContentUnavailableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEB161DC8A900E4D1E4 /* UITableViewContentUnavailableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF09516C534F800F08A84 /* UITableViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DED161DC8A900E4D1E4 /* UITableViewController+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF09716C534F800F08A84 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DEF161DC8A900E4D1E4 /* UITableView+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF09916C534F800F08A84 /* UITableViewUpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF1161DC8A900E4D1E4 /* UITableViewUpdatingView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF09B16C534F800F08A84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07B16C52D0F00F08A84 /* GTMNSString+HTML.m */; };
-		F96DF09D16C534F800F08A84 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07816C52C8600F08A84 /* NSString+HTML.m */; };
-		F96DF09F16C534F800F08A84 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDD161DC8A900E4D1E4 /* NSString+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0A116C534F800F08A84 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDF161DC8A900E4D1E4 /* NSURL+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0A516C534F800F08A84 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCD161DC8A900E4D1E4 /* NSArray+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0A716C534F800F08A84 /* NSData+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCF161DC8A900E4D1E4 /* NSData+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0A916C534F800F08A84 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD3161DC8A900E4D1E4 /* NSDictionary+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0AB16C534F800F08A84 /* NSSet+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DDB161DC8A900E4D1E4 /* NSSet+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0AD16C534F800F08A84 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0AF16C534F800F08A84 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0B116C534F800F08A84 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C916400EEA0027F4C3 /* UIImage+RoundedCorner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0B316C534F800F08A84 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE9161DC8A900E4D1E4 /* UIImage+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0B516C534F800F08A84 /* CAAnimation+EGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DCB161DC8A900E4D1E4 /* CAAnimation+EGOHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0B716C534F800F08A84 /* NSManagedObjectContext+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD5161DC8A900E4D1E4 /* NSManagedObjectContext+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0B916C534F800F08A84 /* NSNull+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD7161DC8A900E4D1E4 /* NSNull+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0BB16C534F800F08A84 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DD9161DC8A900E4D1E4 /* NSObject+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0BD16C534F800F08A84 /* UIAlertView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE1161DC8A900E4D1E4 /* UIAlertView+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0BF16C534F800F08A84 /* UIApplication+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE3161DC8A900E4D1E4 /* UIApplication+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0C116C534F800F08A84 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE5161DC8A900E4D1E4 /* UIColor+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0C316C534F800F08A84 /* UIDevice+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DE7161DC8A900E4D1E4 /* UIDevice+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0C516C534F800F08A84 /* UIToolbar+EGOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF3161DC8A900E4D1E4 /* UIToolbar+EGOHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0C716C534F800F08A84 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF5161DC8A900E4D1E4 /* UIViewController+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F96DF0C916C534F800F08A84 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C2DF7161DC8A900E4D1E4 /* UIView+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F96DF0CB16C5386E00F08A84 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D773C716400EEA0027F4C3 /* UIImage+Resize.m */; };
-		F96DF0CC16C5392A00F08A84 /* NSDictionary+URLParametrs.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DF07516C52C3E00F08A84 /* NSDictionary+URLParametrs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -493,36 +493,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96DF0CC16C5392A00F08A84 /* NSDictionary+URLParametrs.m in Sources */,
-				F96DF08F16C534F800F08A84 /* NSDate+Helper.m in Sources */,
-				F96DF09116C534F800F08A84 /* NSDate+TimeZones.m in Sources */,
-				F96DF09316C534F800F08A84 /* UITableViewContentUnavailableView.m in Sources */,
-				F96DF09516C534F800F08A84 /* UITableViewController+Helper.m in Sources */,
-				F96DF09716C534F800F08A84 /* UITableView+Helper.m in Sources */,
-				F96DF09916C534F800F08A84 /* UITableViewUpdatingView.m in Sources */,
-				F96DF09B16C534F800F08A84 /* GTMNSString+HTML.m in Sources */,
-				F96DF09D16C534F800F08A84 /* NSString+HTML.m in Sources */,
-				F96DF09F16C534F800F08A84 /* NSString+Helper.m in Sources */,
-				F96DF0A116C534F800F08A84 /* NSURL+Helper.m in Sources */,
-				F96DF0A516C534F800F08A84 /* NSArray+Helper.m in Sources */,
-				F96DF0A716C534F800F08A84 /* NSData+Helper.m in Sources */,
-				F96DF0A916C534F800F08A84 /* NSDictionary+Helper.m in Sources */,
-				F96DF0AB16C534F800F08A84 /* NSSet+Helper.m in Sources */,
-				F96DF0AD16C534F800F08A84 /* UIImage+Alpha.m in Sources */,
-				F96DF0AF16C534F800F08A84 /* UIImage+Resize.m in Sources */,
-				F96DF0B116C534F800F08A84 /* UIImage+RoundedCorner.m in Sources */,
-				F96DF0B316C534F800F08A84 /* UIImage+Helper.m in Sources */,
-				F96DF0B516C534F800F08A84 /* CAAnimation+EGOHelper.m in Sources */,
-				F96DF0B716C534F800F08A84 /* NSManagedObjectContext+Helper.m in Sources */,
-				F96DF0B916C534F800F08A84 /* NSNull+Helper.m in Sources */,
-				F96DF0BB16C534F800F08A84 /* NSObject+Helper.m in Sources */,
-				F96DF0BD16C534F800F08A84 /* UIAlertView+Helper.m in Sources */,
-				F96DF0BF16C534F800F08A84 /* UIApplication+Helper.m in Sources */,
-				F96DF0C116C534F800F08A84 /* UIColor+Helper.m in Sources */,
-				F96DF0C316C534F800F08A84 /* UIDevice+Helper.m in Sources */,
-				F96DF0C516C534F800F08A84 /* UIToolbar+EGOHelper.m in Sources */,
-				F96DF0C716C534F800F08A84 /* UIViewController+Helper.m in Sources */,
-				F96DF0C916C534F800F08A84 /* UIView+Helper.m in Sources */,
+				F95D666D16C53B84002B2C85 /* NSDate+Helper.m in Sources */,
+				F95D666E16C53B84002B2C85 /* NSDate+TimeZones.m in Sources */,
+				F95D666F16C53B84002B2C85 /* UITableViewContentUnavailableView.m in Sources */,
+				F95D667016C53B84002B2C85 /* UITableViewController+Helper.m in Sources */,
+				F95D667116C53B84002B2C85 /* UITableView+Helper.m in Sources */,
+				F95D667216C53B84002B2C85 /* UITableViewUpdatingView.m in Sources */,
+				F95D667316C53B84002B2C85 /* GTMNSString+HTML.m in Sources */,
+				F95D667416C53B84002B2C85 /* NSString+HTML.m in Sources */,
+				F95D667516C53B84002B2C85 /* NSString+Helper.m in Sources */,
+				F95D667616C53B84002B2C85 /* NSURL+Helper.m in Sources */,
+				F95D667716C53B84002B2C85 /* NSDictionary+URLParametrs.m in Sources */,
+				F95D667816C53B84002B2C85 /* NSArray+Helper.m in Sources */,
+				F95D667916C53B84002B2C85 /* NSData+Helper.m in Sources */,
+				F95D667A16C53B84002B2C85 /* NSDictionary+Helper.m in Sources */,
+				F95D667B16C53B84002B2C85 /* NSSet+Helper.m in Sources */,
+				F95D667C16C53B84002B2C85 /* UIImage+Alpha.m in Sources */,
+				F95D667D16C53B84002B2C85 /* UIImage+Resize.m in Sources */,
+				F95D667E16C53B84002B2C85 /* UIImage+RoundedCorner.m in Sources */,
+				F95D667F16C53B84002B2C85 /* UIImage+Helper.m in Sources */,
+				F95D668016C53B84002B2C85 /* CAAnimation+EGOHelper.m in Sources */,
+				F95D668116C53B84002B2C85 /* NSManagedObjectContext+Helper.m in Sources */,
+				F95D668216C53B84002B2C85 /* NSNull+Helper.m in Sources */,
+				F95D668316C53B84002B2C85 /* NSObject+Helper.m in Sources */,
+				F95D668416C53B84002B2C85 /* UIAlertView+Helper.m in Sources */,
+				F95D668516C53B84002B2C85 /* UIApplication+Helper.m in Sources */,
+				F95D668616C53B84002B2C85 /* UIColor+Helper.m in Sources */,
+				F95D668716C53B84002B2C85 /* UIDevice+Helper.m in Sources */,
+				F95D668816C53B84002B2C85 /* UIToolbar+EGOHelper.m in Sources */,
+				F95D668916C53B84002B2C85 /* UIViewController+Helper.m in Sources */,
+				F95D668A16C53B84002B2C85 /* UIView+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +572,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -610,7 +610,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -733,6 +733,7 @@
 				F96DF08C16C5348700F08A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

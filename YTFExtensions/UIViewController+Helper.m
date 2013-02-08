@@ -58,13 +58,12 @@
 	
 	[viewController viewWillAppear:YES];
 	
-	[UIView beginAnimations:@"presentPopUpViewController" context:viewController];
+	[UIView beginAnimations:@"presentPopUpViewController" context:(__bridge void *)(viewController)];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(presentedPopUpViewController:finished:viewController:)];
 	viewController.view.alpha = 1.0f;
 	[UIView commitAnimations];
 	
-	[viewController retain];
 }
 
 - (void)presentedPopUpViewController:(id)name finished:(id)finished viewController:(UIViewController*)viewController {
@@ -78,7 +77,7 @@
 - (void)dismissPopUpViewController:(UIViewController<PopUpViewControllerDelegate>*)viewController {
 	[viewController viewWillDisappear:YES];
 	
-	[UIView beginAnimations:@"dismissPopUpViewController" context:viewController];
+	[UIView beginAnimations:@"dismissPopUpViewController" context:(__bridge void *)(viewController)];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(dismissedPopUpViewController:finished:viewController:)];
 	viewController.view.alpha = 0.0f;
@@ -97,7 +96,6 @@
 - (void)dismissedPopUpViewController:(id)name finished:(id)finished viewController:(UIViewController*)viewController {
 	[viewController.view removeFromSuperview];
 	[viewController viewDidDisappear:YES];
-	[viewController release];
 }
 
 @end

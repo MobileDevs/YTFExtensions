@@ -51,7 +51,6 @@
     {
         array = [(NSArray *)[self objectForKey:key] copy];
         [ret setValue:array forKey:key];
-        [array release];
     }
     
     return ret;

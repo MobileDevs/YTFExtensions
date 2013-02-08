@@ -67,7 +67,6 @@ int const GGCharacterIsNotADigit = 10;
 	NSNumberFormatter* formatter = [[NSNumberFormatter alloc] init];
 	[formatter setNumberStyle:NSNumberFormatterDecimalStyle];
 	NSString* formattedString = [formatter stringFromNumber:number];
-	[formatter release];
 	return formattedString;
 }
 
@@ -166,7 +165,6 @@ int const GGCharacterIsNotADigit = 10;
 	NSString *immutableResult;
 	
 	if([result length] <= length) {
-		[result release];
 		return self;
 	}
 	
@@ -179,20 +177,17 @@ int const GGCharacterIsNotADigit = 10;
 		case NSTruncateStringPositionStart:
 			[result insertString:ellipsis atIndex:[result length] - length + [ellipsis length] ];
 			immutableResult  = [[result substringFromIndex:[result length] - length] copy];
-			[result release];
-			return [immutableResult autorelease];
+			return immutableResult;
 		case NSTruncateStringPositionMiddle:
 			first = [result substringToIndex:charactersEachSide - [ellipsis length]+1];
 			last = [result substringFromIndex:[result length] - charactersEachSide];
 			immutableResult = [[[NSArray arrayWithObjects:first, last, NULL] componentsJoinedByString:ellipsis] copy];
-			[result release];
-			return [immutableResult autorelease];
+			return immutableResult;
 		default:
 		case NSTruncateStringPositionEnd:
 			[result insertString:ellipsis atIndex:length - [ellipsis length]];
 			immutableResult  = [[result substringToIndex:length] copy];
-			[result release];
-			return [immutableResult autorelease];
+			return immutableResult;
 	}
 }
 

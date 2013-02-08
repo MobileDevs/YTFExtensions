@@ -37,7 +37,6 @@
 	[formatter setDateFormat:dateFormatterString];
 	
 	NSDate *theDate = [formatter dateFromString:dateString];
-	[formatter release];
 	return theDate;
 }
 
@@ -85,7 +84,7 @@
 - (NSString*)formattedDateWithFormatString:(NSString*)dateFormatterString {
 	if(!dateFormatterString) return nil;
 	
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
 	[formatter setDateFormat:dateFormatterString];
 	[formatter setAMSymbol:@"am"];
 	[formatter setPMSymbol:@"pm"];
@@ -98,7 +97,7 @@
 
 - (NSString*)relativeFormattedDate {
     // Initialize the formatter.
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterShortStyle];
     [formatter setTimeStyle:NSDateFormatterNoStyle];
 	
@@ -148,7 +147,7 @@
 
 - (NSString*)relativeFormattedDateOnly {
     // Initialize the formatter.
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterShortStyle];
     [formatter setTimeStyle:NSDateFormatterNoStyle];
 	
@@ -201,7 +200,7 @@
 
 - (NSString*)relativeFormattedDateTime {
     // Initialize the formatter.
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterShortStyle];
     [formatter setTimeStyle:NSDateFormatterShortStyle];
 	[formatter setAMSymbol:@"am"];
@@ -262,7 +261,7 @@
 
 - (NSString*)relativeLongFormattedDate {
     // Initialize the formatter.
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterFullStyle];
     [formatter setTimeStyle:NSDateFormatterNoStyle];
 	
@@ -315,7 +314,7 @@
 
 - (NSString*)formattedTime {
     // Initialize the formatter.
-    NSDateFormatter* formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterNoStyle];
     [formatter setTimeStyle:NSDateFormatterShortStyle];
 	

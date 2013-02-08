@@ -36,7 +36,6 @@ void UIAlertViewQuick(NSString* title, NSString* message, NSString* dismissButto
 										  otherButtonTitles:nil
 						  ];
 	[alert show];
-	[alert autorelease];
 }
 
 

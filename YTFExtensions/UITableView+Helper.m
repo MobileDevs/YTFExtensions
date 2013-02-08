@@ -49,7 +49,7 @@
 	UIView* headerBackgroundView;
 	
 	if(!(headerBackgroundView = [self viewWithTag:BACKGROUND_HEADER_TAG])) {
-		headerBackgroundView = [[[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0 - self.bounds.size.height, self.bounds.size.width, self.bounds.size.height)] autorelease];
+		headerBackgroundView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0 - self.bounds.size.height, self.bounds.size.width, self.bounds.size.height)];
         headerBackgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 		headerBackgroundView.tag = BACKGROUND_HEADER_TAG;
 		[self insertSubview:headerBackgroundView atIndex:0];
@@ -75,7 +75,6 @@
 		updatingView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin;
 		updatingView.tag = ACTIVITY_TAG;
 		[self addSubview:updatingView];
-		[updatingView release];
 	}
 }
 
@@ -115,7 +114,6 @@
 		}
 		
 		[self addSubview:view];
-		[view release];
 	}
 }
 

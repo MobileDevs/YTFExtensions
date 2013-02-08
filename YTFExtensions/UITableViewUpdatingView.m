@@ -73,11 +73,6 @@
 	return [title sizeWithFont:LABEL_FONT].width + 50.0f;
 }
 
-- (void)dealloc {
-	[activitiyIndicatorView release];
-	[label release];
-    [super dealloc];
-}
 
 
 @end
