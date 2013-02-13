@@ -104,6 +104,7 @@
 		D05E2725161C78930063EBA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D05E2727161C79370063EBA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D05E2729161C799A0063EBA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0AB4D1516CBA6A400965960 /* YTFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFExtensions.h; sourceTree = "<group>"; };
 		D0D773C416400EEA0027F4C3 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		D0D773C516400EEA0027F4C3 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 		D0D773C616400EEA0027F4C3 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 				D00C2DF6161DC8A900E4D1E4 /* UIView+Helper.h */,
 				D00C2DF7161DC8A900E4D1E4 /* UIView+Helper.m */,
 				F95D669316C53C41002B2C85 /* Supporting Files */,
+				D0AB4D1516CBA6A400965960 /* YTFExtensions.h */,
 			);
 			path = YTFExtensions;
 			sourceTree = "<group>";
@@ -467,6 +469,7 @@
 				F95D669B16C53C41002B2C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
