@@ -26,6 +26,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonCryptor.h>
 
 @interface NSData (Helper)
 
@@ -49,5 +50,12 @@
 
 + (NSData *)dataFromBase64EncodedString:(NSString *)aString;
 - (NSString *)base64EncodedString;
+
+@end
+
+@interface NSData (AES)
+
+- (NSData*) encryptAES: (NSString *) key;
+- (NSData *) decryptAES: (NSString *) key;
 
 @end
